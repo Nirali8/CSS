@@ -1,0 +1,22 @@
+h1 {
+    color: rebeccapurple;
+}
+
+#box {
+    color: brown;
+}
+
+.class {
+    color: blue;
+}
+
+p,
+pre,
+h3 {
+    color: chartreuse;
+}
+
+/*universal selector*/
+* {
+    background-color: red;
+}
