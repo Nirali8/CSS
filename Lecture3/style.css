@@ -1,0 +1,37 @@
+/* import other css file */
+@import "importantstyle.css";
+@import url("importantstyle.css");
+
+/* specificity */
+#h2_id {
+    color: brown;
+}
+
+.h2_class {
+    color: rebeccapurple;
+}
+
+h2 {
+    color: aquamarine;
+}
+
+/* inheritance */
+.parent {
+    font-size: 100px;
+    color: red;
+}
+
+/* child */
+p {
+    color: blue;
+}
+
+/* inherit means takes parents styling */
+p {
+    color: inherit;
+}
+
+/* initial means takes browsers styling */
+p {
+    color: initial;
+}
