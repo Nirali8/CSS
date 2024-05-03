@@ -60,3 +60,32 @@ section {
 #border10 {
     border: 10px hidden blue;
 }
+
+#border11 {
+    height: 100px;
+    border-width: 10px;
+    border-style: solid dotted double dashed;
+    border-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#border12 {
+    height: 100px;
+    border-width: 10px;
+    border-style: dotted double;
+    border-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#border13 {
+    height: 100px;
+    border: 10px solid crimson;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
