@@ -89,3 +89,9 @@ section {
     justify-content: center;
     align-items: center;
 }
+
+hr {
+    border-width: 2px;
+    border-color: cyan;
+    border-style: dashed;
+}
