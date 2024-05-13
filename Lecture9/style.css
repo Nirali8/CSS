@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 10px;
+}
+
+.container-1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 100px 100px;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 10px;
+}
+
+.item1 {
+    background-color: pink;
+    grid-column: 1/5;
+}
+
+.item2 {
+    grid-row: 2/4;
+    background-color: skyblue;
+}
+
+.item3,
+.item4,
+.item5 {
+    background-color: purple;
+}
+
+.item6 {
+    grid-column: 2/5;
+    background-color: green;
+}
+
+.item7 {
+    background-color: cornflowerblue;
+    grid-column: 1/5;
+}
+
+.item1-1 {
+    background-color: blue;
+}
+
+.item2-1 {
+    background-color: rosybrown;
+}
+
+.item3-1 {
+    background-color: royalblue;
+}
+
+.item4-1 {
+    background-color: rebeccapurple;
+}
+
+.item5-1 {
+    background-color: crimson;
+}
+
+.item6-1 {
+    background-color: brown;
+}
+
+.item7-1 {
+    background-color: violet;
+}
+
+.item8-1 {
+    background-color: blueviolet;
+}
+
+.item9-1 {
+    background-color: coral;
+}
