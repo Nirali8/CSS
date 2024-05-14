@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 700px;
+    width: 700px;
+    background-color: black;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    display: grid;
+    margin-left: 30%;
+    margin-top: 1%;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    gap: 10px;
+    padding: 20px;
+    align-self: center;
+}
+
+.box-1 {
+    background-color: bisque;
+    grid-column: 1/4;
+}
+
+.box-2 {
+    background-color: beige;
+    grid-row: 2/6;
+}
+
+.box-3 {
+    background-color: beige;
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+
+.box-4 {
+    background-color: beige;
+    grid-row: 4/6;
+}
+
+.box-5 {
+    background-color: beige;
+    grid-row: 4/6;
+}
+
+.box-6 {
+    background-color: bisque;
+    grid-column: 1/4;
+}
+
+.box-shadow {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    padding: 10px;
+    margin: 50px;
+    box-shadow: 10px 10px 2px 2px blue;
+}
+
+.box-shadow1 {
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 50px;
+    box-shadow: 10px 10px 2px 2px blue inset;
+}
+
+.box-shadow2 {
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 50px;
+    box-shadow: -10px -10px 2px 2px blue;
+}
+
+.text-main {
+    font-size: xx-large;
+}
+
+.text {
+    text-decoration-line: line-through;
+}
+
+.text1 {
+    text-align: end;
+}
+
+.text2 {
+    text-transform: capitalize;
+}
+
+.text3 {
+    text-shadow: 5px 5px red;
+}
