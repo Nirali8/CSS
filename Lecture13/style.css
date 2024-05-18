@@ -1,0 +1,27 @@
+.listing {
+    margin: auto;
+    height: 300px;
+    width: 500px;
+    background-color: cornflowerblue;
+    /* list-style-type: circle; */
+    list-style-image: url(asset\ 10.jpg);
+    list-style-position: inside;
+
+}
+
+.width {
+    width: 800px;
+    height: 200px;
+    background-color: lightgreen;
+    border: 5px solid black;
+    margin: auto;
+}
+
+.min-width {
+    min-width: 500px;
+    max-width: 600px;
+    height: 200px;
+    background-color: lightgreen;
+    border: 5px solid black;
+    margin: auto;
+}
