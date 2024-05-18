@@ -79,12 +79,24 @@
     box-shadow: -10px -10px 2px 2px blue;
 }
 
+.box-shadow3 {
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 50px;
+    box-shadow: -10px -10px 2px 2px blue, 10px 10px 2px 2px orange;
+}
+
 .text-main {
     font-size: xx-large;
 }
 
 .text {
     text-decoration-line: line-through;
+    text-decoration-color: blue;
+    text-decoration-style: double;
+    text-decoration-thickness: 1px;
 }
 
 .text1 {
@@ -97,4 +109,28 @@
 
 .text3 {
     text-shadow: 5px 5px red;
+}
+
+.text4 {
+    text-decoration: underline overline wavy red;
+}
+
+.text5 {
+    text-emphasis: double-circle red;
+}
+
+.text6 {
+    writing-mode: vertical-rl;
+    text-emphasis: triangle blue;
+    text-emphasis-position: under right;
+}
+
+.text7 {
+    text-emphasis: sesame red;
+    word-spacing: 20px;
+}
+
+.text8 {
+    text-emphasis: '*' green;
+    letter-spacing: 10px;
 }

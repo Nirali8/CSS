@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#myDIV {
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+    background: red url('smiley.gif') no-repeat top left/5px 5px;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        background: blue bottom right/50px 50px;
+    }
+}
+
+.divmain {
+    display: flex;
+}
+
+.gradient {
+    width: 300px;
+    height: 200px;
+    /* background-image: repeating-radial-gradient(red, green 10%, blue 15%); */
+    background-image: linear-gradient(red, yellow);
+}
+
+.gradient1 {
+    width: 300px;
+    height: 200px;
+    /* background-image: repeating-radial-gradient(red, green 10%, blue 15%); */
+    background-image: linear-gradient(red, yellow, green);
+}
+
+.gradient2 {
+    width: 300px;
+    height: 200px;
+    /* background-image: repeating-radial-gradient(red, green 10%, blue 15%); */
+    background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+}
+
+.gradient3 {
+    width: 300px;
+    height: 200px;
+    /* background-image: repeating-radial-gradient(red, green 10%, blue 15%); */
+    background-image: radial-gradient(red, yellow);
+}
+
+.gradient4 {
+    width: 300px;
+    height: 200px;
+    /* background-image: repeating-radial-gradient(red, green 10%, blue 15%); */
+    background-image: radial-gradient(red, yellow, green);
+}
+
+.gradient5 {
+    width: 300px;
+    height: 200px;
+    /* background-image: repeating-radial-gradient(red, green 10%, blue 15%); */
+    background-image: repeating-radial-gradient(red, yellow 10%, green 20%);
+}
+
+.gradient6 {
+    width: 300px;
+    height: 200px;
+    /* background-image: repeating-radial-gradient(red, green 10%, blue 15%); */
+    background-image: conic-gradient(red, yellow);
+}
+
+.gradient7 {
+    width: 300px;
+    height: 200px;
+    /* background-image: repeating-radial-gradient(red, green 10%, blue 15%); */
+    background-image: conic-gradient(red, yellow, green);
+}
+
+.gradient8 {
+    width: 300px;
+    height: 200px;
+    /* background-image: repeating-radial-gradient(red, green 10%, blue 15%); */
+    background-image: repeating-conic-gradient(red, yellow 10%, green 20%);
+}
+
+#myDIV1 {
+    border: 10px dotted black;
+    padding: 15px;
+    background: blue;
+    /* background-clip: padding-box;
+    background-clip: border-box; */
+    background-clip: content-box;
+}
+
+#myDIV2 {
+    height: 600px;
+    border: 10px dashed black;
+    padding: 25px;
+    /* background-color: aqua; */
+    background-origin: border-box;
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    background-image: url("smiley.gif");
+}
