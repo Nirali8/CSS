@@ -30,7 +30,7 @@ h1:nth-last-of-type(10) {
 
 h1:nth-last-of-type(12) {
     color: red;
-    background-color: yellow;
+    background-color: green;
 }
 
 h1:nth-last-of-type(15) {
