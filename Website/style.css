@@ -6,18 +6,32 @@
 
 /* header styling */
 .header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
     margin: 30px 20px;
+    z-index: 1;
 }
 
 .logo_class {
     display: flex;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 102px;
+}
+
 .logo {
-    max-width: 8%;
+    max-width: 20%;
     max-height: 100%;
 }
 
@@ -622,7 +636,10 @@ img {
     justify-content: center;
     text-align: center;
     padding-top: 30px;
+    border-collapse: collapse;
+    overflow: hidden;
 }
+
 
 .table_section h1 {
     font-size: 50px;
@@ -639,7 +656,7 @@ img {
 .table {
     margin-top: 10px;
     padding: 40px;
-    margin-left: 35%;
+    margin-left: 30%;
 }
 
 .table tr,
@@ -647,7 +664,10 @@ th,
 td {
     font-size: 30px;
     border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
 }
+
 
 /* .skillbar styling */
 .skillbar {
@@ -715,9 +735,201 @@ td {
     display: grid;
     grid-template-columns: auto auto;
     background-color: #0a1c44;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .form {
+    margin-top: 10px;
+    /* text-align: left; */
+    color: white;
+    padding: 10px;
+
+}
+
+.form h1 {
     font-size: 50px;
+}
+
+.form hr {
+    margin-top: 10px;
+    width: 100px;
+    height: 5px;
+    background-color: white;
+}
+
+.container1 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+input,
+label {
+    padding: 10px;
+    font-size: 25px;
+}
+
+input[type="file"]::file-selector-button {
+    border: 2px solid #6c5ce7;
+    padding: 0.2em 0.4em;
+    border-radius: 0.2em;
+    background-color: #0087ab;
+    transition: 1s;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background-color: #81ecec;
+    border: 2px solid #00cec9;
+}
+
+/* contact us styling */
+.contact {
+    display: grid;
+    text-align: center;
+    padding: 20px;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+
+.logo1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.logo1 img {
+    height: 200px;
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+.logo1 h2 {
+    padding-bottom: 20px;
+}
+
+.contact-div {
+    /* text-align: center; */
+    margin-top: 20px;
+    padding-top: 10px;
+    /* margin-left: -35%; */
+}
+
+.contact-div h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+    list-style-type: none;
+    padding-left: 10px;
+    /* margin-left: -30px; */
+    /* padding-right: 20px; */
+}
+
+.place {
+    margin-left: 10px;
+}
+
+.phone {
+    margin-left: 56px;
+}
+
+.gmail {
+    margin-left: 53px;
+}
+
+.list-item {
+    /* line-height: 4; */
+    color: #aaa;
+}
+
+.contact-text {
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: #bbb;
+}
+
+/* Social Media Icons */
+.social-media-list {
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    /* margin: 0 auto;
+    padding: 0; */
+}
+
+.social-media-list li a {
+    color: #fff;
+}
+
+.social-media-list li {
+    position: relative;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    /* margin: 10px 3px; */
+    line-height: 60px;
+    border-radius: 50%;
+    /* color: #fff; */
+    background-color: rgb(27, 27, 27);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.social-media-list li:after {
+    content: '';
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    opacity: 0;
+    /* box-shadow: 0 0 0 1px #fff; */
+    transition: all .2s ease-in-out;
+}
+
+.social-media-list li:hover {
+    background-color: #fff;
+}
+
+.social-media-list li:hover:after {
+    opacity: 1;
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+}
+
+.social-media-list li:hover a {
+    color: #000;
+}
+
+.newslatter {
+    width: 500px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.newslatter h2 {
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+.newslatter p {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* map section styling */
+.map {
+    height: 400px;
+    width: 100%;
+}
+
+.map-div iframe {
+    border: 0;
+    padding: 10px;
 }
