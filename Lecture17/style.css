@@ -1,0 +1,6 @@
+.masking img {
+    /* -webkit-mask-image: url(../Website/assets/asset\ 14.jpeg); */
+    mask-image: url(../Website/assets/asset\ 0.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}

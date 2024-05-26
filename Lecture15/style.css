@@ -77,3 +77,20 @@ h1:nth-child(21) {
     color: red;
     background-color: yellow;
 }
+
+q:lang(no) {
+    quotes: "~" "~";
+}
+
+::selection {
+    color: red;
+    background: yellow;
+}
+
+h1::before {
+    content: url(smiley.gif);
+}
+
+h1::after {
+    content: url(smiley.gif);
+}
