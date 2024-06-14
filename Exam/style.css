@@ -5,11 +5,11 @@
 }
 
 .main {
+    height: 100vh;
     text-align: center;
     justify-content: center;
-    align-items: center;
-    margin-top: 10%;
-    margin-left: 5%;
+    background-size: cover;
+        background-image: url(../Website/assets/background1.jpg);
 }
 
 /* navigation bar style */
@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     background-color: red;
-    width: 90%;
+    /* width: 90%; */
     padding-left: 10px;
 }
 
@@ -43,9 +43,10 @@
 /* main part style */
 .second {
     text-align: center;
-    width: 90%;
-    height: 500px;
-    background-image: url(../Website/assets/background1.jpg);
+    /* width: 90%; */
+    height: 100%;
+    /* background-size: cover;
+    background-image: url(../Website/assets/background1.jpg); */
     justify-content: center;
 }
 
